@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 1.5625rem;
+    max-width: 25rem;
+    min-width: 25rem;
+    background-color: #dfe6e9;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2em;
+    color: #2d3436;
+    margin: 1.25rem 0 1.875rem;
+}
+
+.card {
+    border-radius: 1.5625rem;
+    position: relative;
+    padding: 1.5625rem 0.9375rem;
+    background-color: #81ecec;
+    margin: 3.125rem 0;
+    height: 12.5rem;
+    box-shadow: 0 0.125rem 0.3125rem #ccc;
+    text-align: left;
+}
+
+.top {
+    border-radius: 1.5625rem 1.5625rem 0 0;
+    height: 6.25rem;
+    width: 100%;
+    background-color: #00cec9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.name {
+    font-size: 2em;
+    color: #2d3436;
+    display: flex;
+    flex: 1;
+    margin: 10% 1rem 0;
+}
+
+.card img {
+    margin: 1.875rem 1.25rem 0 0.625rem;
+}
+
+.circle-img {
+    border-radius: 50%;
+    border: 0.4375rem solid #fff;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.bottom {
+    margin-top: 7.5rem;
+}
+
+.info {
+    margin: 1.25rem 0;
+    color: #1a7e76;
+}
